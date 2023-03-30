@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.selfImage{
+  height: 250px;
+  width: 200px;
+  border-radius: 50%;
+}
+.headerContainer{
+  display: flex;
+        
+        justify-content: center; 
+        gap:30px;
+}
+.technologiesContainer{
+  display: flex;
+  width:400px;
+  height:200px;
+}
+.techLogo{
+  height: 100px;
+  width:200px;
+  
+}
