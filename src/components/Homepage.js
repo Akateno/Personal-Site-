@@ -9,6 +9,7 @@ import rubyLogo from '../rubyLogo.png'
 import { Link } from "react-router-dom";
 import JohnWebsite from './JohnWebsite'
 import ThisSite from './ThisSite'
+import BookClub from './BookClub'
 
 import {
     Button,
@@ -32,7 +33,7 @@ function Homepage(){
     
     return (
         <div>
-           <h1>Welcome to my Homepage</h1> 
+           <h1 className="welcome">Welcome to my Website</h1> 
            
 
            {/* <div className='headerContainer'>
@@ -79,21 +80,14 @@ function Homepage(){
            <h1>Projects/Experience</h1>
             <div class="ui four item menu">
                     <a class="item">Editorials</a>
-                    <a class="item">Editorials</a>
+                    <a class="item"><Link to="/bookclub">BookClub App</Link></a>
                     <a class="item"><Link to="/johnwebsite">John Website</Link></a>
                     <a class="item"><Link to="/thissite">This Site</Link></a>
                     
             </div>
            
            <h1>Technologies Used</h1>
-           {/* <div className='technologiesContainer'>
-                <img className="techLogo" src={javascriptLogo} alt="javaLogo"/>
-                <img className="techLogo" src={nodeLogo} alt="javaLogo"/>
-                <img className="techLogo" src={postgresLogo} alt="javaLogo"/>
-                <img className="techLogo" src={railsLogo} alt="javaLogo"/>
-                <img className="techLogo" src={reactLogo} alt="javaLogo"/>
-                <img className="techLogo" src={rubyLogo} alt="javaLogo"/>
-           </div> */}
+           
 
            <div className="technologies">
                 <div class="ui tiny images">
