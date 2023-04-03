@@ -28,14 +28,21 @@ function AnimalShelter(){
                 <h1 className="projectTitle">PetMatcher-Adoption App</h1>
                
             </div>
-               
- <h4><a href="https://github.com/Akateno/Phase-3-Project-Front-end-">GitHub Repo</a></h4>
-            <h5>About:</h5>
+            
+           
+            
+            
+
+
+
+            
             <div className="aboutContainer">
-                
-                <p>The front end for this app was made using React and SemanticUI in order to have a more modern look. The backend was made with Ruby on Rails, the ruby gem B-crypt in order to utilize user authorization and password encryption. The database used for this project was PostgreSQL.</p>
-                <p>A hobby of mine is brewing and I noticed the website of my favorite vendor was a very basic website, I asked if I could redesign their website for free
-                    and this is the redesign I ended up on. This project used React.js along with bootstrap for a more modern look. 
+                <h4 className="underline"><a href="https://github.com/Akateno/Phase-3-Project-Front-end-">GitHub Repo</a></h4>
+                <h5>About:</h5>
+                <p> THis project was a collaboration with other team members, we wanted to test the usage of siniatra as a bakc-end and how it could be incorporated with React as the frontend. 
+                </p>
+                <p>The front end for this app was made using React and SemanticUI/vanillaCSS in order to have a more modern look. The backend was made with Sinatra using a SQLite database, along with seeding data with the Faker Gem.
+                    This applicaiton is able to make GET requests to the database, POST requests, DELETE items, and Create new items/dogs. A join table was used to show the relationship bewtween the pet applicants wanted to adopt as seen in the third image.
                 </p>
             </div>
     

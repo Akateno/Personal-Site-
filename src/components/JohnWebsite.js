@@ -32,14 +32,24 @@ function JohnWebsite(){
         <div>
             <h1 className="projectTitle">Johns Brewery Shop</h1>
             
-            <h3>Redesigned Local website</h3>
-            <h4><a href="https://github.com/Akateno/JohnsWebsite">GitHub Repo</a></h4>
-            <div className="aboutContainer">
-                <p>The front end for this app was made using React and SemanticUI in order to have a more modern look. The backend was made with Ruby on Rails, the ruby gem B-crypt in order to utilize user authorization and password encryption. The database used for this project was PostgreSQL.</p>
+            
+            
+            
+                <div className="aboutContainer">
+                <h4 className="underline"><a href="https://github.com/Akateno/JohnsWebsite">GitHub Repo</a></h4>
+                <h5>About:</h5>
                 <p>A hobby of mine is brewing and I noticed the website of my favorite vendor was a very basic website, I asked if I could redesign their website for free
-                                and this is the redesign I ended up on. This project used React.js along with bootstrap for a more modern look. 
+                    and this is the redesign I ended up on. This project used React.js along with bootstrap for a more modern look. I chose bootstrap in order to fortify my knowledge in it and push my current set of skills.  
                 </p>
-            </div>
+                <p>The website was made using React and SemanticUI in order to have a more modern look. A JSON file was used to store some inventory information in order to facilitate mapping over the data to create components. 
+                    Google maps API was used to in order to show the location of the business to users. Users can shop and also open PDF files that contain recipes for different types of brews. 
+                </p>
+
+                </div>
+                
+            
+                
+           
            
 
     

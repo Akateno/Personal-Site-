@@ -17,6 +17,7 @@ code {
 }
 .welcome{
   text-align: center;
+  font-size: 400%;
 }
 .selfImage{
   height: 250px;
@@ -26,6 +27,7 @@ code {
 
 .headerContainer{
   padding-top: 4%;
+  padding:3%;
   display: flex;
         
         justify-content: center; 
@@ -42,13 +44,14 @@ code {
 
 /* JohnWebsite */
 .largeView{
-  width: 50%;
-  height: 40%;
+  width: 60%;
+  height: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 1%;
-  border: 3px solid green;
+  padding:10px;
+  border: 3px solid navy;
 }
 .techLogo{
   height: 100px;
@@ -69,8 +72,9 @@ code {
 }
 .aboutContainer{
   
-  text-align: center;
+  
   padding-bottom: 1%;
+  padding:1%;
 }
 .projectTitle{
   text-align: center;
@@ -116,4 +120,11 @@ code {
   
 
  
+}
+
+/* recordStoreCSS */
+.recordClickImages{
+  margin: auto;
+  width: 50%;
+  padding-left: 5%;
 }

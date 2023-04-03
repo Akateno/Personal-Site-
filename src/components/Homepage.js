@@ -1,68 +1,60 @@
 
-import Portrait from '../Portrait.png'
-import javascriptLogo from '../javascriptLogo.png'
-import nodeLogo from '../nodeLogo.png'
-import postgresLogo from '../postgresLogo.png'
-import railsLogo from '../railsLogo.png'
-import reactLogo from '../reactLogo.png'
-import rubyLogo from '../rubyLogo.png'
+import Portrait from '../photos/Portrait.png'
+import javascriptLogo from '../photos/javascriptLogo.png'
+import nodeLogo from '../photos/nodeLogo.png'
+import postgresLogo from '../photos/postgresLogo.png'
+import railsLogo from '../photos/railsLogo.png'
+import reactLogo from '../photos/reactLogo.png'
+import rubyLogo from '../photos/rubyLogo.png'
 import { Link } from "react-router-dom";
-import JohnWebsite from './JohnWebsite'
-import ThisSite from './RecordStore'
-import BookClub from './BookClub'
+import bootstrap from "../photos/bootstrap.png"
+import css from "../photos/css.png"
+import html from "../photos/html.png"
+import semantic from "../photos/semantic.png"
 
-import {
-    Button,
-    Container,
-    Divider,
-    Grid,
-    Header,
-    Icon,
-    Image,
-    List,
-    Menu,
-    Segment,
-    Sidebar,
-    Message,
-    Item,
-  } from 'semantic-ui-react'
+
+
+
+import Resume from "../photos/SoftwareResume.pdf"
+
+
 
 function Homepage(){
 
+    function sendEmail(){window.open("erickkvargas@gmail.com?subject=SendMail&body=Description");}   
 
     
     return (
         <div>
            <h1 className="welcome">Welcome to my Website</h1> 
            
-
-           {/* <div className='headerContainer'>
-                <div>
-                    <img className='selfImage'src={Portrait} alt='selfImage'/>
-                </div>
-                <div>
-                     <h3>Erick Vargas</h3>
-                    <h4>erickkvargas@gmail.com</h4>
-                     <p> I started working in Chemistry due to how fascinating elements work together to form the things around us. I worked in an environmental lab in order help develop enzymes that remove pollutants from drinking water. During this time is when I decided to take C++ course, and over time I started to watch more and more computer language related videos, and soon found myself transitioning to a Software Engineering career. 
-                        Software engineering was not too different where many components come together to form something even bigger. Now I start my days wondering what bug or new fascinating concept I'll be learning today and how I can make use of it.
-                        Animal lover and father to two cats. When not behind a monitor, If I'm not playing tennis I'm sketching, and or making coffee. 
-                     </p>
-                </div>
-           </div> */}
+           
+           
+           
+        
             <div className="headerContainer">
                  <div class="ui items">
                                         <div class="item">
                                             <div class="image">
                                                 <img className='selfImage'src={Portrait} alt='selfImage'/>
                                             </div>
+                                            
                                             <div class="content">
                                                 <div class="header">Erick Vargas</div>
                                                 <div class="meta">erickkvargas@gmail.com</div>
                                                 <div class="description">I started working in Chemistry due to how fascinating elements work together to form the things around us. I worked in an environmental lab in order help develop enzymes that remove pollutants from drinking water. During this time is when I decided to take C++ course, and over time I started to watch more and more computer language related videos, and soon found myself transitioning to a Software Engineering career. 
                                             Software engineering was not too different where many components come together to form something even bigger. Now I start my days wondering what bug or new fascinating concept I'll be learning today and how I can make use of it.
                                             Animal lover and father to two cats. When not behind a monitor, If I'm not playing tennis I'm sketching, and or making coffee. </div>
-                                                <div class="extra">Extra</div>
+                                                <div class="extra">
+
+                                                    <h5>
+                                                        <a href={Resume} without rel="noopener noreferrer" target="_blank"> Resume</a>
+                                                    </h5>
+                                                </div>
+                                                
                                             </div>
+
+                                            
                                         </div>
                                     
                                 
@@ -78,6 +70,10 @@ function Homepage(){
                             <img class="ui image"src={railsLogo} alt="javaLogo"/>
                             <img class="ui image" src={reactLogo} alt="javaLogo"/>
                             <img class="ui image" src={rubyLogo} alt="javaLogo"/>
+                            <img class="ui image" src={semantic} alt="javaLogo"/>
+                            <img class="ui image" src={bootstrap} alt="javaLogo"/>
+                            <img class="ui image" src={html} alt="javaLogo"/>
+                            <img class="ui image" src={css} alt="javaLogo"/>
                             </div>
             </div>
 

@@ -1,11 +1,10 @@
 import Homepage from "./Homepage";
 import 'semantic-ui-css/semantic.min.css';
-import { Link, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import RecordStore from "./RecordStore";
 import JohnWebsite from "./JohnWebsite";
 import BookClub from "./BookClub";
 import AnimalShelter from "./AnimalShelter";
-
 
 
 
