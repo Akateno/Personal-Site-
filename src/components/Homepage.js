@@ -8,7 +8,7 @@ import reactLogo from '../reactLogo.png'
 import rubyLogo from '../rubyLogo.png'
 import { Link } from "react-router-dom";
 import JohnWebsite from './JohnWebsite'
-import ThisSite from './ThisSite'
+import ThisSite from './RecordStore'
 import BookClub from './BookClub'
 
 import {
@@ -69,9 +69,17 @@ function Homepage(){
                     </div>
             </div>
            
-
-
-
+            <h1>Technologies</h1>
+            <div className="technologies">
+                            <div class="ui tiny images">
+                            <img class="ui image" src={javascriptLogo} alt="javaLogo"/>
+                            <img class="ui image" src={nodeLogo} alt="javaLogo"/>
+                            <img class="ui image" src={postgresLogo} alt="javaLogo"/>
+                            <img class="ui image"src={railsLogo} alt="javaLogo"/>
+                            <img class="ui image" src={reactLogo} alt="javaLogo"/>
+                            <img class="ui image" src={rubyLogo} alt="javaLogo"/>
+                            </div>
+            </div>
 
 
 
@@ -79,26 +87,18 @@ function Homepage(){
 
            <h1>Projects/Experience</h1>
             <div class="ui four item menu">
-                    <a class="item">Editorials</a>
+                    
                     <a class="item"><Link to="/bookclub">BookClub App</Link></a>
                     <a class="item"><Link to="/johnwebsite">John Website</Link></a>
-                    <a class="item"><Link to="/thissite">This Site</Link></a>
+                    <a class="item"><Link to="/recordstore">RecordStore</Link></a>
+                    <a class="item"><Link to="/animalShelter">AnimalShelter</Link></a>
                     
             </div>
            
-           <h1>Technologies Used</h1>
+           
            
 
-           <div className="technologies">
-                <div class="ui tiny images">
-                <img class="ui image" src={javascriptLogo} alt="javaLogo"/>
-                <img class="ui image" src={nodeLogo} alt="javaLogo"/>
-                <img class="ui image" src={postgresLogo} alt="javaLogo"/>
-                <img class="ui image"src={railsLogo} alt="javaLogo"/>
-                <img class="ui image" src={reactLogo} alt="javaLogo"/>
-                <img class="ui image" src={rubyLogo} alt="javaLogo"/>
-                </div>
-           </div>
+         
 
 
 

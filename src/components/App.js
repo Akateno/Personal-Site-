@@ -1,9 +1,10 @@
 import Homepage from "./Homepage";
 import 'semantic-ui-css/semantic.min.css';
 import { Link, Routes, Route } from "react-router-dom";
-import ThisSite from "./ThisSite";
+import RecordStore from "./RecordStore";
 import JohnWebsite from "./JohnWebsite";
 import BookClub from "./BookClub";
+import AnimalShelter from "./AnimalShelter";
 
 
 
@@ -19,8 +20,9 @@ function App() {
      <Routes>
           {/* <Route index element={<Home />} /> */}
           <Route path="/johnwebsite"  element={<JohnWebsite />} />
-          <Route path="/thissite"  element={<ThisSite />} />
+          <Route path="/recordstore"  element={<RecordStore />} />
           <Route path="/bookclub"  element={<BookClub />} />
+          <Route path="/animalshelter"  element={<AnimalShelter />} />
           
           
       </Routes>

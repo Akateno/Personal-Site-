@@ -11,6 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  
+  color:navy;
+}
 .welcome{
   text-align: center;
 }
@@ -35,12 +39,48 @@ code {
 
 
 }
+
+/* JohnWebsite */
+.largeView{
+  width: 50%;
+  height: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1%;
+  border: 3px solid green;
+}
 .techLogo{
   height: 100px;
   width:200px;
   
 }
-
+.johnWebsiteImagesContainer{
+ 
+  padding-bottom: 2%;
+}
+.clickImages{
+  margin:auto;
+  padding-left: 19%;
+}
+.ui.image{
+  padding: 5px;
+ 
+}
+.aboutContainer{
+  
+  text-align: center;
+  padding-bottom: 1%;
+}
+.projectTitle{
+  text-align: center;
+  background-color: navy;
+  color:whitesmoke;
+  padding-top:1%;
+  padding-bottom: 1%;
+  
+  
+}
 /* Bookclub */
 .container{
   text-align: center;
@@ -51,7 +91,6 @@ code {
   width: 300px;
   height:350px;
   transition:transform 0.25s ease;
-
 }
 .ui.medium.centered.image:hover{
   -webkit-transform:scale(2.5); /* or some other value */
@@ -63,4 +102,18 @@ code {
   justify-content: center;
  
 
+}
+.shelterImagesContainer{
+  margin: auto;
+  width: 40%;
+  padding-left: 5%;
+  
+  
+}
+.shelterImages{
+ 
+  
+  
+
+ 
 }
