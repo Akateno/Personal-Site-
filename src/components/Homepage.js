@@ -20,16 +20,24 @@ import Resume from "../photos/SoftwareResume.pdf"
 
 
 function Homepage(){
-
-    function sendEmail(){window.open("erickkvargas@gmail.com?subject=SendMail&body=Description");}   
-
-    
+  
     return (
         <div>
-           <h1 className="welcome">Welcome to my Website</h1> 
+           <h1 className="welcome"><span>Welcome to my Website</span></h1> 
            
            
-           
+           <div class="catcontainer">
+            <div class="shadow"></div>
+            <div class="cat">
+                <div class="ear"></div>
+                <div class="eye"></div>
+                <div class="mouth"></div>
+                <div class="nose"></div>
+                <div class="tail"></div>
+                <div class="body"></div>
+                <div class="bubble"></div>
+            </div>
+        </div>
            
         
             <div className="headerContainer">
@@ -45,11 +53,12 @@ function Homepage(){
                                                 <div class="description">I started working in Chemistry due to how fascinating elements work together to form the things around us. I worked in an environmental lab in order help develop enzymes that remove pollutants from drinking water. During this time is when I decided to take C++ course, and over time I started to watch more and more computer language related videos, and soon found myself transitioning to a Software Engineering career. 
                                             Software engineering was not too different where many components come together to form something even bigger. Now I start my days wondering what bug or new fascinating concept I'll be learning today and how I can make use of it.
                                             Animal lover and father to two cats. When not behind a monitor, If I'm not playing tennis I'm sketching, and or making coffee. </div>
-                                                <div class="extra">
+                                                
+                                                 <div class="extra">
 
-                                                    <h5>
+                                                    <h3>
                                                         <a href={Resume} without rel="noopener noreferrer" target="_blank"> Resume</a>
-                                                    </h5>
+                                                    </h3>
                                                 </div>
                                                 
                                             </div>
@@ -61,7 +70,9 @@ function Homepage(){
                     </div>
             </div>
            
-            <h1>Technologies</h1>
+            <h1 className="techTitle">Technologies</h1>
+           
+            
             <div className="technologies">
                             <div class="ui tiny images">
                             <img class="ui image" src={javascriptLogo} alt="javaLogo"/>
