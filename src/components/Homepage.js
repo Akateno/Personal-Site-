@@ -26,7 +26,7 @@ function Homepage(){
            <h1 className="welcome"><span>Welcome to my Website</span></h1> 
            
            
-           <div class="catcontainer">
+           {/* <div class="catcontainer">
             <div class="shadow"></div>
             <div class="cat">
                 <div class="ear"></div>
@@ -37,7 +37,7 @@ function Homepage(){
                 <div class="body"></div>
                 <div class="bubble"></div>
             </div>
-        </div>
+        </div> */}
            
         
             <div className="headerContainer">
