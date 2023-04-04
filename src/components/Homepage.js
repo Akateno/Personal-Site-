@@ -50,16 +50,14 @@ function Homepage(){
                                             <div class="content">
                                                 <div class="header">Erick Vargas</div>
                                                 <div class="meta">erickkvargas@gmail.com</div>
-                                                <div class="description">I started working in Chemistry due to how fascinating elements work together to form the things around us. I worked in an environmental lab in order help develop enzymes that remove pollutants from drinking water. During this time is when I decided to take C++ course, and over time I started to watch more and more computer language related videos, and soon found myself transitioning to a Software Engineering career. 
-                                            Software engineering was not too different where many components come together to form something even bigger. Now I start my days wondering what bug or new fascinating concept I'll be learning today and how I can make use of it.
-                                            Animal lover and father to two cats. When not behind a monitor, If I'm not playing tennis I'm sketching, and or making coffee. </div>
-                                                
-                                                 <div class="extra">
-
-                                                    <h3>
+                                                <div class="meta"><a href="https://github.com/Akateno">GitHub</a></div>
+                                                <h3 class="meta">
                                                         <a href={Resume} without rel="noopener noreferrer" target="_blank"> Resume</a>
-                                                    </h3>
-                                                </div>
+                                                 </h3>
+                                                <div class="description"> I am a full stack Engineer with a degree in Chemistry from Washington State Univeristy, I fell in love with coding right at the end of my senior year and have continued to push my knowlege in coding languages and implementing them to different technologies. I received my coding education from FlatIron school in their Software Engineering program. Used to work in a lab now I start my days wondering what bug or new fascinating concept I'll be learning today and how I can make use of it. As you will see React is by far my favorite technology to use, but also enjoy working with Ruby on rails. I am always persuing new things to learn, and am currently on track learning Python and pursuing a certification in AWS. 
+                                                                            Animal lover and father to two cats. When not behind a monitor, If I'm not playing tennis I'm sketching, and or making coffee. </div>
+                                                    <p>I have built several applications making use of React.js, Javascript, Ruby, Rails, SQL, and make use of databases. In these applications I have made use of external APIs, JSON, OOP, and debugging. </p>
+                                                 
                                                 
                                             </div>
 
